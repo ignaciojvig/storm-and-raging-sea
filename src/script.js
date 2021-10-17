@@ -7,7 +7,7 @@ import waterFragmentShader from './shaders/water/fragment.glsl'
 
 
 // Debug
-const gui = new dat.GUI({ width: 340, closed: true })
+const gui = new dat.GUI({ width: 340 })
 const debugObject = {
     thunder: () => {
         scene.background = new THREE.Color('white');
